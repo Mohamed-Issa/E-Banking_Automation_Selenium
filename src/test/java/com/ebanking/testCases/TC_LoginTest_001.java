@@ -1,4 +1,4 @@
-package com.demo.testCases;
+package com.ebanking.testCases;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.demo.pageObjects.LoginPage;
+import com.ebanking.pageObjects.LoginPage;
 
 public class TC_LoginTest_001 extends BaseClass {
 	

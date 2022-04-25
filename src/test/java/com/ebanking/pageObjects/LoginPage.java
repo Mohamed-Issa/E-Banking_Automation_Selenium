@@ -1,4 +1,4 @@
-package com.demo.pageObjects;
+package com.ebanking.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

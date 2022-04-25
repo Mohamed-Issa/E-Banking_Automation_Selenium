@@ -1,4 +1,4 @@
-package com.demo.testCases;
+package com.ebanking.testCases;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.demo.pageObjects.LoginPage;
-import com.demo.utilities.XLUtils;
+import com.ebanking.pageObjects.LoginPage;
+import com.ebanking.utilities.XLUtils;
 
 public class TC_LoginTestDDT_002 extends BaseClass {
 

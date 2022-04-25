@@ -1,4 +1,4 @@
-package com.demo.utilities;
+package com.ebanking.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,10 +1,11 @@
-package com.demo.testCases;
+package com.ebanking.testCases;
 
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
@@ -17,7 +18,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-import com.demo.utilities.ReadConfig;
+import com.ebanking.utilities.ReadConfig;
 
 public class BaseClass {
 
@@ -45,7 +46,7 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 		}
 
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
 		driver.get(baseURL);
 
@@ -62,6 +63,16 @@ public class BaseClass {
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+	}
+	
+	public String rondomString() {
+		String genetateString = RandomStringUtils.randomAlphabetic(8);
+		return genetateString;
+	}
+	
+	public String rondomNumber() {
+		String genetateRondomnumber= RandomStringUtils.randomNumeric(5);
+		return genetateRondomnumber;
 	}
 
 }
