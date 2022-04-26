@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-25T22:37:27 EET" name="All Test Suite" finished-at="2022-04-25T22:38:02 EET" duration-ms="35139">
+  <suite started-at="2022-04-26T16:06:39 EET" name="All Test Suite" finished-at="2022-04-26T16:07:13 EET" duration-ms="33801">
     <groups>
     </groups>
-    <test started-at="2022-04-25T22:37:27 EET" name="testName" finished-at="2022-04-25T22:38:02 EET" duration-ms="35139">
+    <test started-at="2022-04-26T16:06:39 EET" name="testName" finished-at="2022-04-26T16:07:13 EET" duration-ms="33801">
       <class name="com.ebanking.testCases.TC_AddCutomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.testCases.TC_AddCutomerTest_003@272113c4]" started-at="2022-04-25T22:37:28 EET" name="setup" finished-at="2022-04-25T22:37:40 EET" duration-ms="11828" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebanking.testCases.TC_AddCutomerTest_003@16d04d3d]" started-at="2022-04-26T16:06:40 EET" name="setup" finished-at="2022-04-26T16:06:47 EET" duration-ms="6970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCutomer()[pri:0, instance:com.ebanking.testCases.TC_AddCutomerTest_003@272113c4]" started-at="2022-04-25T22:37:40 EET" name="addNewCutomer" finished-at="2022-04-25T22:38:01 EET" duration-ms="21660" status="PASS">
+        <test-method signature="addNewCutomer()[pri:1, instance:com.ebanking.testCases.TC_AddCutomerTest_003@16d04d3d]" started-at="2022-04-26T16:06:47 EET" name="addNewCutomer" finished-at="2022-04-26T16:06:58 EET" duration-ms="10885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCutomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebanking.testCases.TC_AddCutomerTest_003@272113c4]" started-at="2022-04-25T22:38:01 EET" name="tearDown" finished-at="2022-04-25T22:38:02 EET" duration-ms="848" status="PASS">
+        <test-method signature="editCustomer()[pri:2, instance:com.ebanking.testCases.TC_AddCutomerTest_003@16d04d3d]" started-at="2022-04-26T16:06:58 EET" name="editCustomer" finished-at="2022-04-26T16:07:05 EET" duration-ms="7231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method signature="addNewAccount()[pri:3, instance:com.ebanking.testCases.TC_AddCutomerTest_003@16d04d3d]" started-at="2022-04-26T16:07:05 EET" name="addNewAccount" finished-at="2022-04-26T16:07:12 EET" duration-ms="7385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebanking.testCases.TC_AddCutomerTest_003@16d04d3d]" started-at="2022-04-26T16:07:12 EET" name="tearDown" finished-at="2022-04-26T16:07:13 EET" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

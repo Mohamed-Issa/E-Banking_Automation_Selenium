@@ -14,7 +14,7 @@
 		<classes>
 
 		 <!--	<class name= "com.ebanking.testCases.TC_LoginTest_001" />  -->
-		<!--	<class name= "com.demo.testCases.TC_LoginTestDDT_002" />  -->
+		<!-- 	<class name= "com.demo.testCases.TC_LoginTestDDT_002" />  -->
 		
 		<class name= "com.ebanking.testCases.TC_AddCutomerTest_003" /> 
 

@@ -18,10 +18,6 @@ public class TC_LoginTest_001 extends BaseClass {
 		driver.get(baseURL);
 		logger.info("URL is open");
 		
-	/*	if (driver.findElement(By.id("details-button")).isDisplayed()) {
-			driver.findElement(By.id("details-button")).click();
-			driver.findElement(By.id("proceed-link")).click();
-		}*/
 		
 		logger.info("proceed-link is pressed");
 

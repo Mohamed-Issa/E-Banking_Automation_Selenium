@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.ebanking.testCases.TC_AddCutomerTest_003" class="method navigator-link" hash-for-method="addNewAccount">addNewAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="com.ebanking.testCases.TC_AddCutomerTest_003" class="method navigator-link" hash-for-method="addNewCutomer">addNewCutomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="com.ebanking.testCases.TC_AddCutomerTest_003" class="method navigator-link" hash-for-method="editCustomer">editCustomer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -127,9 +137,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="addNewAccount">
+                  </a> <!-- addNewAccount -->
+                  <span class="method-name">addNewAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="addNewCutomer">
                   </a> <!-- addNewCutomer -->
                   <span class="method-name">addNewCutomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editCustomer">
+                  </a> <!-- editCustomer -->
+                  <span class="method-name">editCustomer</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,16 +214,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewCutomer')
 data.setCell(0, 2, 'com.ebanking.testCases.TC_AddCutomerTest_003')
-data.setCell(0, 3, 21660);
+data.setCell(0, 3, 10885);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addNewAccount')
+data.setCell(1, 2, 'com.ebanking.testCases.TC_AddCutomerTest_003')
+data.setCell(1, 3, 7385);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'editCustomer')
+data.setCell(2, 2, 'com.ebanking.testCases.TC_AddCutomerTest_003')
+data.setCell(2, 3, 7231);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -232,11 +264,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addNewCutomer</span>
-                <span class="method-start">11846 ms</span>
+                <span class="method-start">6987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editCustomer</span>
+                <span class="method-start">17887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewAccount</span>
+                <span class="method-start">25127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33541 ms</span>
+                <span class="method-start">32515 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
