@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
@@ -28,7 +29,7 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogin;
 	
-	@FindBy(xpath = "//a[contains(text(),'Log out')]")
+	@FindBy(how = How.NAME, using = "btnLogin")
 	@CacheLookup
 	WebElement btnLogOut;
 	

@@ -5,16 +5,15 @@
     <listener class-name="com.ebanking.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="testName(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ebanking.testCases.TC_AddCutomerTest_003">
+      <class name="com.ebanking.testCases.TC_LoginTest_001">
         <methods>
-          <include name="editCustomer"/>
-          <include name="addNewAccount"/>
+          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="addNewCutomer"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- com.ebanking.testCases.TC_AddCutomerTest_003 -->
+      </class> <!-- com.ebanking.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- testName(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

@@ -2,7 +2,7 @@ package com.ebanking.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -58,7 +58,7 @@ public class TC_LoginTestDDT_002 extends BaseClass {
 
 	@DataProvider(name = "LoginData")
 	String[][] getData() throws IOException {
-		String path = System.getProperty("user.dir")+"/src/test/java/com/demo/testData/LoginData.xlsx";
+		String path = System.getProperty("user.dir")+"/src/test/java/com/ebanking/testData/LoginData.xlsx";
 
 		int rownum = XLUtils.getRowCount(path, "Sheet1");
 		int colcount = XLUtils.getCellCount(path, "Sheet1", 1);
